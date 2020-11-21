@@ -24,3 +24,36 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+.ion-color-white {
+    --ion-color-base: var(--ion-color-white);
+    --ion-color-base-rgb: var(--ion-color-white-rgb);
+    --ion-color-contrast: var(--ion-color-white-contrast);
+    --ion-color-contrast-rgb: var(--ion-color-white-contrast-rgb);
+    --ion-color-shade: var(--ion-color-white-shade);
+    --ion-color-tint: var(--ion-color-white-tint);
+}
+
+.login-modal .modal-wrapper {
+    height: 45%;
+    top: 55%;
+    position: absolute;
+    display: block;
+    border-radius: 20px 20px 0 0;
+}
+
+.register-modal .modal-wrapper {
+    height: 50%;
+    top: 50%;
+    position: absolute;
+    display: block;
+    border-radius: 20px 20px 0 0;
+}
+
+.primary-input {
+    background: aliceblue;
+    --padding-start: 10px !important;
+    color: #999999;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
